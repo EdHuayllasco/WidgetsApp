@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 const cards = <Map<String, dynamic>>[
   {'elevation': 0.0, 'label': 'Elevation 0'},
@@ -30,19 +31,22 @@ class _CardsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        children: [
-          ...cards.map((card) => _CardType1(label: card['label'], elevation: card['elevation'])),
-          ...cards.map((card) => _CardType2(label: card['label'], elevation: card['elevation'])),
-          ...cards.map((card) => _CardType3(label: card['label'], elevation: card['elevation'])),
-          ...cards.map((card) => _CardType4(label: card['label'], elevation: card['elevation'])),
-          const SizedBox(
-            height: 50,
-          )
-
-        ],
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            ...cards.map((card) => _CardType1(label: card['label'], elevation: card['elevation'])),
+            ...cards.map((card) => _CardType2(label: card['label'], elevation: card['elevation'])),
+            ...cards.map((card) => _CardType3(label: card['label'], elevation: card['elevation'])),
+            ...cards.map((card) => _CardType4(label: card['label'], elevation: card['elevation'])),
+            const SizedBox(
+              height: 50,
+            )
+    
+          ],
+        ),
       ),
+      floatingActionButton:FloatingActionButton(onPressed: (){context.pop();}, child: const Icon(Icons.arrow_back_ios_new_rounded),),
     );
   }
 }
