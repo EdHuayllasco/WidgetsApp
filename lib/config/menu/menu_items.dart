@@ -21,4 +21,5 @@ const List<MenuItem> appMenuItems =  [
   MenuItem(title: 'Tarjeta', subtitle: 'Un contenedor estilizado', link: '/cards', icon: Icons.credit_card),
   MenuItem(title: 'ProgressIndicator', subtitle: 'Generales y controlados', link: '/progress', icon: Icons.refresh_rounded),
   MenuItem(title: 'SnackBars and Dialogs', subtitle: 'Indicadores en pantalla', link: '/snackbars', icon: Icons.info_outline),
+  MenuItem(title: 'Animated Container', subtitle: 'StatefullWidget animated', link: '/animated', icon: Icons.check_box_outline_blank_rounded),
 ];
