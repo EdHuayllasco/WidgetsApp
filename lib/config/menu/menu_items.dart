@@ -23,4 +23,5 @@ const List<MenuItem> appMenuItems =  [
   MenuItem(title: 'SnackBars and Dialogs', subtitle: 'Indicadores en pantalla', link: '/snackbars', icon: Icons.info_outline),
   MenuItem(title: 'Animated Container', subtitle: 'StatefullWidget animated', link: '/animated', icon: Icons.check_box_outline_blank_rounded),
   MenuItem(title: 'Ui Controls + Tiles', subtitle: 'Flutter Controls', link: '/ui-controls', icon: Icons.car_rental_outlined),
+  MenuItem(title: 'Introduccion a la Aplicacion', subtitle: 'Pequeno tutorial introductorio', link: '/tutorial', icon: Icons.accessibility_new_rounded),
 ];
