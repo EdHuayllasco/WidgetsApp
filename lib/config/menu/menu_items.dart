@@ -26,4 +26,5 @@ const List<MenuItem> appMenuItems =  [
   MenuItem(title: 'Introduccion a la Aplicacion', subtitle: 'Pequeno tutorial introductorio', link: '/tutorial', icon: Icons.accessibility_new_rounded),
   MenuItem(title: 'Infinite Scroll y Pull', subtitle: 'Vistas infinitas y Pull to Refresh', link: '/infinite', icon: Icons.list_alt_rounded),
   MenuItem(title: 'Riverpot Counter', subtitle: 'Riverpod Counter Screen vista', link: '/counter', icon: Icons.countertops_rounded),
+  MenuItem(title: 'Cambiar Tema', subtitle: 'Cambiar tema de la aplicacion', link: '/theme_changer', icon: Icons.color_lens_outlined),
 ];
