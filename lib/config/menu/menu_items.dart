@@ -25,4 +25,5 @@ const List<MenuItem> appMenuItems =  [
   MenuItem(title: 'Ui Controls + Tiles', subtitle: 'Flutter Controls', link: '/ui-controls', icon: Icons.car_rental_outlined),
   MenuItem(title: 'Introduccion a la Aplicacion', subtitle: 'Pequeno tutorial introductorio', link: '/tutorial', icon: Icons.accessibility_new_rounded),
   MenuItem(title: 'Infinite Scroll y Pull', subtitle: 'Vistas infinitas y Pull to Refresh', link: '/infinite', icon: Icons.list_alt_rounded),
+  MenuItem(title: 'Riverpot Counter', subtitle: 'Riverpod Counter Screen vista', link: '/counter', icon: Icons.countertops_rounded),
 ];
